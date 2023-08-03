@@ -3,7 +3,7 @@ import mongoose from 'mongoose'
 // Load the server
 import db from './server'
 // Load the Product Model
-import Product from './productModel'
+import Product from './product.model.js'
 exports.handler = async (event, context) => {
   context.callbackWaitsForEmptyEventLoop = false
   
